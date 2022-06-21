@@ -1,16 +1,22 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = ({ primary_color }) => {
   return (
-    <div className="mb-8">
-      <h2 className={`${primary_color} font-bold text-xl`}>Projects</h2>
-      <div className="mt-3 grid grid-cols-3">
-        <div className="relative">
-          <img src="img/movie.png"></img>
-          <div className="absolute top-0 left-0 hover:bg-red-200 h-full w-full transition-colors delay-1000 duration-1000">
-              <p>Link</p>
-          </div>
+    <div className="mx-2 mb-6">
+      <div className="bg-card pt-8 pb-2 px-10">
+        <div className="flex items-center mb-3">
+          <FontAwesomeIcon icon={faUser} className="text-primary mr-2" />
+          <h2 className="text-primary font-bold">PROJECTS</h2>
         </div>
+        <p className="text-desc">
+          A <span className="font-bold">software engineer</span> with hands-on
+          experience in all-levels of testing, including performance,
+          functional, integration, system and user acceptance.
+        </p>
+
+        <p className="text-sub text-xs mt-4 text-right">SOFTWARE ENGINEER</p>
       </div>
     </div>
   );

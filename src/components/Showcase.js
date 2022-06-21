@@ -6,7 +6,7 @@ const Showcase = ({ primary_color }) => {
     <div class="bg-bg md:w-1/2 text-white">
       <div className="container mx-auto md:px-8 relative">
         <div className="py-4 mx-2">
-          <p className={`font-extrabold text-sm text-primary`}>FutureSrDev</p>
+          <p className={`font-extrabold text-sm text-primary`}>FUTURESRDEV</p>
         </div>
 
         <div className="py-32 bg-card mx-2">
