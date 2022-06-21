@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="mx-2 mb-6">
       <div className="text-title text-sm py-4">
-        <p className="h-2.5 w-8 bg-primary"></p>
+        <p className="h-2.5 w-12 bg-primary"></p>
         <p className="h-2 w-8 bg-title"></p>
       </div>
 

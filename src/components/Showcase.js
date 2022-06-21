@@ -1,5 +1,8 @@
 import React from "react";
 import TypeAnimation from "react-type-animation";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faMobileAndroid } from "@fortawesome/free-solid-svg-icons";
 
 const Showcase = ({ primary_color }) => {
   return (
@@ -9,7 +12,7 @@ const Showcase = ({ primary_color }) => {
           <p className={`font-extrabold text-sm text-primary`}>FUTURESRDEV</p>
         </div>
 
-        <div className="py-32 bg-card mx-2">
+        <div className="bg-card mx-2 md:px-3 md:pt-16 pt-6">
           <div className="text-center">
             <span>
               <h2>--</h2>
@@ -32,6 +35,23 @@ const Showcase = ({ primary_color }) => {
           </div>
           <div className="grid grid-cols-1 justify-items-center">
             <img src="img/profile.png" alt="profile"></img>
+          </div>
+
+          <div className="md:mt-32 mt-12 px-4 pb-4">
+            <div className="flex items-center mb-1">
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                className="mr-2 text-primary"
+              />
+              <p className="text-desc text-sm">cvpitagan@gmail.com</p>
+            </div>
+            <div className="flex items-center">
+              <FontAwesomeIcon
+                icon={faMobileAndroid}
+                className="mr-3 text-primary"
+              />
+              <p className="text-desc text-sm">(+63) 975-634-8605</p>
+            </div>
           </div>
         </div>
       </div>
