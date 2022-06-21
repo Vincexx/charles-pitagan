@@ -3,7 +3,11 @@ import React from "react";
 const Education = ({ primary_color }) => {
   const details = [
     {
-      date: "Nov 2021 - Present",
+      date: "May 2022 - Present",
+      position: "Software Engineer",
+    },
+    {
+      date: "Nov 2021 - June 2022",
       position: "Backend Software Engineer",
     },
     {
