@@ -6,18 +6,13 @@ import Showcase from "./Showcase";
 import Skills from "./Skills";
 
 const Content = ({ primary_color }) => {
-  const defaultBtn =
-    "bg-cyan-500 text-white py-2 hover:bg-white hover:text-black hover:shadow-md";
-  const activeBtn = "font-bold text-black bg-white shadow-md";
-  const [showContent, setShowContent] = useState("");
-
   return (
     <div class="flex-1 flex overflow-hidden bg-bg">
       <div class="flex-1 md:overflow-y-scroll">
-        <About />
-        {/* <Education primary_color={primary_color} />
-        <Skills primary_color={primary_color} />
-        <Projects primary_color={primary_color} /> */}
+        <div className="container max-w-2xl mx-auto">
+          <About />
+          <Education />
+        </div>
       </div>
     </div>
   );
