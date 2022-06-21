@@ -37,7 +37,7 @@ const Education = () => {
   ];
 
   return (
-    <div className="mx-2">
+    <div className="mx-2 mb-6">
       <div className="bg-card pt-8 pb-2 px-10">
         <div className="mb-3 flex items-center">
           <FontAwesomeIcon

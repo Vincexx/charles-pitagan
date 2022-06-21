@@ -1,35 +1,22 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = ({ primary_color }) => {
   return (
-    <div className="mb-8">
-      <h2 className={`${primary_color} font-bold text-xl`}>Skills</h2>
-      <div className="mt-3">
-        <div className="mb-5">
-          <p className={`${primary_color} text-sm text-center mb-3`}>
-            Frontend
-          </p>
-          <div className="grid grid-cols-3 gap-3 justify-items-center md:grid-cols-6">
-            <img src="img/html.png" alt="vue"></img>
-            <img src="img/css.png" alt="vue"></img>
-            <img src="img/js.jpg" alt="vue"></img>
-            <img src="img/vue.png" alt="vue"></img>
-            <img src="img/react.png" alt="react"></img>
-            <img src="img/tailwind.jpg" alt="react"></img>
-          </div>
+    <div className="mx-2 mb-6">
+      <div className="bg-card pt-8 pb-2 px-10">
+        <div className="flex items-center mb-3">
+          <FontAwesomeIcon icon={faUser} className="text-primary mr-2" />
+          <h2 className="text-primary font-bold">SKILLS</h2>
         </div>
+        <p className="text-desc">
+          A <span className="font-bold">software engineer</span> with hands-on
+          experience in all-levels of testing, including performance,
+          functional, integration, system and user acceptance.
+        </p>
 
-        <div>
-          <p className={`${primary_color} text-sm text-center mb-3`}>
-            Backend & Database
-          </p>
-          <div className="grid grid-cols-2 gap-3 justify-items-center md:grid-cols-6">
-            <img src="img/php.png" alt="vue"></img>
-            <img src="img/laravel.png" alt="vue"></img>
-            <img src="img/adonis.png" alt="vue"></img>
-            <img src="img/mysql.png" alt="vue"></img>
-          </div>
-        </div>
+        <p className="text-sub text-xs mt-4 text-right">SOFTWARE ENGINEER</p>
       </div>
     </div>
   );
