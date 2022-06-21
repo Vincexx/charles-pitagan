@@ -1,5 +1,6 @@
 import About from "./About";
 import Education from "./Education";
+import Footer from "./Footer";
 import Projects from "./Projects";
 import Skills from "./Skills";
 
@@ -12,6 +13,7 @@ const Content = () => {
           <Education />
           <Skills />
           <Projects />
+          <Footer />
         </div>
       </div>
     </div>

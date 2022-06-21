@@ -49,7 +49,7 @@ const Education = () => {
 
         {details.map((item) => {
           return (
-            <div className="grid grid-cols-2 gap-2 mb-2">
+            <div className="md:grid grid-cols-2 mb-2">
               <p className="text-desc">{item.date}</p>
               <div>
                 <p className="text-desc font-bold">

@@ -33,13 +33,15 @@ const Skills = ({ primary_color }) => {
           <FontAwesomeIcon icon={faCogs} className="text-primary mr-2" />
           <h2 className="text-primary font-bold">SKILLS</h2>
         </div>
-        <div className="flex justify-between">
+        <div className="md:flex md:justify-between gap-2">
           {details.map((item) => (
             <div>
               <p className="text-title font-bold">{item.title}</p>
-              {item.skills.split(",").map((skill) => (
-                <p className="text-title">{skill}</p>
-              ))}
+              <div className="flex md:flex-col">
+                {item.skills.split(",").map((skill) => (
+                  <p className="text-title mr-2">{skill}</p>
+                ))}
+              </div>
             </div>
           ))}
         </div>
