@@ -1,4 +1,3 @@
-import About from "./About";
 import Education from "./Education";
 import Footer from "./Footer";
 import Projects from "./Projects";
@@ -8,7 +7,7 @@ const Content = () => {
   return (
     <div className="flex-1 flex overflow-hidden bg-bg">
       <div className="flex-1 md:overflow-y-scroll">
-        <div className="container max-w-2xl mx-auto">
+        <div className="container md:max-w-4xl mx-auto">
           {/* <About /> */}
           <Education />
           <Skills />
