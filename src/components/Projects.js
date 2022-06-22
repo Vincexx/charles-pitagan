@@ -15,7 +15,7 @@ const Projects = () => {
         }}
         className="bg-card shadow-md"
       >
-        <div className="flex items-center mb-6 pt-6 px-10">
+        <div className="flex items-center justify-center mb-6 pt-6 px-10">
           <FontAwesomeIcon
             icon={faProjectDiagram}
             className="text-primary mr-2"
