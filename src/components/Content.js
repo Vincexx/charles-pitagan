@@ -9,7 +9,7 @@ const Content = () => {
     <div className="flex-1 flex overflow-hidden bg-bg">
       <div className="flex-1 md:overflow-y-scroll">
         <div className="container max-w-2xl mx-auto">
-          <About />
+          {/* <About /> */}
           <Education />
           <Skills />
           <Projects />

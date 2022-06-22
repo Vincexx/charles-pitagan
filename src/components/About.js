@@ -5,12 +5,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="mx-2 mb-6">
-      <div className="text-title text-sm py-4">
-        <p className="h-2.5 w-12 bg-primary"></p>
-        <p className="h-2 w-8 bg-title"></p>
-      </div>
-
+    <div className="mx-2">
       <motion.div
         initial={{ x: 300, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
