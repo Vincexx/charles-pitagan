@@ -36,7 +36,7 @@ const Skills = () => {
           y: { type: "tween", stiffness: 100 },
           default: { duration: 1 },
         }}
-        className="bg-card pt-8 pb-2 px-10"
+        className="bg-card pt-8 pb-2 px-10 shadow-md"
       >
         <div className="flex items-center md:mb-3 mb-5">
           <FontAwesomeIcon icon={faCogs} className="text-primary mr-2" />

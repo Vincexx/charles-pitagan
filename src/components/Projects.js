@@ -13,7 +13,7 @@ const Projects = () => {
           y: { type: "tween", stiffness: 100 },
           default: { duration: 1 },
         }}
-        className="bg-card"
+        className="bg-card shadow-md"
       >
         <div className="flex items-center mb-6 pt-6 px-10">
           <FontAwesomeIcon

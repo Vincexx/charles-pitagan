@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Showcase = () => {
   return (
-    <div className="bg-bg md:w-1/2 text-white">
+    <div className="bg-bg md:w-1/2 text-white shadow-md">
       <div className="container mx-auto md:px-8 relative">
         <div className="py-4 mx-2">
           <p className={`font-extrabold text-sm text-primary`}>FUTURESRDEV</p>

@@ -46,7 +46,7 @@ const Education = () => {
           y: { type: "tween", stiffness: 100 },
           default: { duration: 1 },
         }}
-        className="bg-card pt-8 pb-2 px-10"
+        className="bg-card pt-8 pb-2 px-10 shadow-md"
       >
         <div className="md:mb-3 mb-5 flex items-center">
           <FontAwesomeIcon
