@@ -11,7 +11,7 @@ const Projects = ({ primary_color }) => {
             icon={faProjectDiagram}
             className="text-primary mr-2"
           />
-          <h2 className="text-primary font-bold">PROJECTS</h2>
+          <h2 className="text-primary font-extrabold">PROJECTS</h2>
         </div>
         <div className="grid md:grid-cols-2 gap-2 justify-items-center">
           <a href="https://vincexx.github.io/React-Movie-App/" target="__blank">

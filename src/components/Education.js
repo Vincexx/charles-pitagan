@@ -39,17 +39,17 @@ const Education = () => {
   return (
     <div className="mx-2 mb-6">
       <div className="bg-card pt-8 pb-2 px-10">
-        <div className="mb-3 flex items-center">
+        <div className="md:mb-3 mb-5 flex items-center">
           <FontAwesomeIcon
             icon={faGraduationCap}
             className="text-primary mr-2"
           />
-          <h2 className="text-primary font-bold">EDUCATION & EXPERIENCE</h2>
+          <h2 className="text-primary font-extrabold">EDUCATION & EXPERIENCE</h2>
         </div>
 
         {details.map((item) => {
           return (
-            <div className="md:grid grid-cols-2 mb-2">
+            <div className="md:grid grid-cols-2 mb-3">
               <p className="text-desc">{item.date}</p>
               <div>
                 <p className="text-desc font-bold">

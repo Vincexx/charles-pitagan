@@ -29,13 +29,13 @@ const Skills = ({ primary_color }) => {
   return (
     <div className="mx-2 mb-6">
       <div className="bg-card pt-8 pb-2 px-10">
-        <div className="flex items-center mb-3">
+        <div className="flex items-center md:mb-3 mb-5">
           <FontAwesomeIcon icon={faCogs} className="text-primary mr-2" />
-          <h2 className="text-primary font-bold">SKILLS</h2>
+          <h2 className="text-primary font-extrabold">SKILLS</h2>
         </div>
         <div className="md:flex md:justify-between gap-2">
           {details.map((item) => (
-            <div>
+            <div className="mb-3">
               <p className="text-title font-bold">{item.title}</p>
               <div className="flex md:flex-col">
                 {item.skills.split(",").map((skill) => (

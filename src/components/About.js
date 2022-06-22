@@ -13,7 +13,7 @@ const About = () => {
       <div className="bg-card pt-8 pb-2 px-10">
         <div className="flex items-center mb-3">
           <FontAwesomeIcon icon={faUser} className="text-primary mr-2" />
-          <h2 className="text-primary font-bold">ABOUT</h2>
+          <h2 className="text-primary font-extrabold">ABOUT</h2>
         </div>
         <p className="text-desc">
           A <span className="font-bold">software engineer</span> with hands-on
