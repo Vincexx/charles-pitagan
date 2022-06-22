@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -10,7 +11,15 @@ const About = () => {
         <p className="h-2 w-8 bg-title"></p>
       </div>
 
-      <div className="bg-card pt-8 pb-2 px-10">
+      <motion.div
+        initial={{ x: 300, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{
+          y: { type: "tween", stiffness: 100 },
+          default: { duration: 1 },
+        }}
+        className="bg-card pt-8 pb-2 px-10"
+      >
         <div className="flex items-center mb-3">
           <FontAwesomeIcon icon={faUser} className="text-primary mr-2" />
           <h2 className="text-primary font-extrabold">ABOUT</h2>
@@ -22,7 +31,7 @@ const About = () => {
         </p>
 
         <p className="text-sub text-xs mt-4 text-right">SOFTWARE ENGINEER</p>
-      </div>
+      </motion.div>
     </div>
   );
 };

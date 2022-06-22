@@ -7,17 +7,21 @@ import { motion } from "framer-motion";
 
 const Showcase = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      className="bg-bg md:w-1/2 text-white"
-    >
+    <div className="bg-bg md:w-1/2 text-white">
       <div className="container mx-auto md:px-8 relative">
         <div className="py-4 mx-2">
           <p className={`font-extrabold text-sm text-primary`}>FUTURESRDEV</p>
         </div>
 
-        <div className="bg-card mx-2 md:px-3 md:pt-16 pt-6">
+        <motion.div
+          initial={{ x: -300, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{
+            y: { type: "tween", stiffness: 100 },
+            default: { duration: 1 },
+          }}
+          className="bg-card mx-2 md:px-3 md:pt-16 pt-6"
+        >
           <div className="text-center">
             <span>
               <h2>--</h2>
@@ -58,9 +62,9 @@ const Showcase = () => {
               <p className="text-desc text-sm">(+63) 975-634-8605</p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

@@ -1,11 +1,20 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faProjectDiagram } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
     <div className="mx-2 mb-6">
-      <div className="bg-card">
+      <motion.div
+        initial={{ x: -300, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{
+          y: { type: "tween", stiffness: 100 },
+          default: { duration: 1 },
+        }}
+        className="bg-card"
+      >
         <div className="flex items-center mb-6 pt-6 px-10">
           <FontAwesomeIcon
             icon={faProjectDiagram}
@@ -47,7 +56,7 @@ const Projects = () => {
         <p className="text-sub text-xs mt-4 text-right py-3 mr-10">
           SOFTWARE ENGINEER
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 };

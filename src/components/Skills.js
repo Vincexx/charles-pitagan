@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCogs } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   const details = [
@@ -28,7 +29,15 @@ const Skills = () => {
 
   return (
     <div className="mx-2 mb-6">
-      <div className="bg-card pt-8 pb-2 px-10">
+      <motion.div
+        initial={{ x: 300, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{
+          y: { type: "tween", stiffness: 100 },
+          default: { duration: 1 },
+        }}
+        className="bg-card pt-8 pb-2 px-10"
+      >
         <div className="flex items-center md:mb-3 mb-5">
           <FontAwesomeIcon icon={faCogs} className="text-primary mr-2" />
           <h2 className="text-primary font-extrabold">SKILLS</h2>
@@ -49,7 +58,7 @@ const Skills = () => {
         </div>
 
         <p className="text-sub text-xs mt-4 text-right">SOFTWARE ENGINEER</p>
-      </div>
+      </motion.div>
     </div>
   );
 };
