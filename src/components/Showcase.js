@@ -3,10 +3,15 @@ import TypeAnimation from "react-type-animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faMobileAndroid } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 
-const Showcase = ({ primary_color }) => {
+const Showcase = () => {
   return (
-    <div class="bg-bg md:w-1/2 text-white">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="bg-bg md:w-1/2 text-white"
+    >
       <div className="container mx-auto md:px-8 relative">
         <div className="py-4 mx-2">
           <p className={`font-extrabold text-sm text-primary`}>FUTURESRDEV</p>
@@ -55,7 +60,7 @@ const Showcase = ({ primary_color }) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

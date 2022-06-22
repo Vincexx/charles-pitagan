@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCogs } from "@fortawesome/free-solid-svg-icons";
 
-const Skills = ({ primary_color }) => {
+const Skills = () => {
   const details = [
     {
       title: "Frontend",
@@ -34,12 +34,14 @@ const Skills = ({ primary_color }) => {
           <h2 className="text-primary font-extrabold">SKILLS</h2>
         </div>
         <div className="md:flex md:justify-between gap-2">
-          {details.map((item) => (
-            <div className="mb-3">
+          {details.map((item, id) => (
+            <div className="mb-3" key={id}>
               <p className="text-title font-bold">{item.title}</p>
               <div className="flex md:flex-col">
-                {item.skills.split(",").map((skill) => (
-                  <p className="text-title mr-2">{skill}</p>
+                {item.skills.split(",").map((skill, id) => (
+                  <p key={id} className="text-title mr-2">
+                    {skill}
+                  </p>
                 ))}
               </div>
             </div>

@@ -6,8 +6,8 @@ import Skills from "./Skills";
 
 const Content = () => {
   return (
-    <div class="flex-1 flex overflow-hidden bg-bg">
-      <div class="flex-1 md:overflow-y-scroll">
+    <div className="flex-1 flex overflow-hidden bg-bg">
+      <div className="flex-1 md:overflow-y-scroll">
         <div className="container max-w-2xl mx-auto">
           <About />
           <Education />

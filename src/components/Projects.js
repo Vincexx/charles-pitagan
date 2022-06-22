@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faProjectDiagram } from "@fortawesome/free-solid-svg-icons";
 
-const Projects = ({ primary_color }) => {
+const Projects = () => {
   return (
     <div className="mx-2 mb-6">
       <div className="bg-card">

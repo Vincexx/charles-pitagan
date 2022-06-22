@@ -44,12 +44,14 @@ const Education = () => {
             icon={faGraduationCap}
             className="text-primary mr-2"
           />
-          <h2 className="text-primary font-extrabold">EDUCATION & EXPERIENCE</h2>
+          <h2 className="text-primary font-extrabold">
+            EDUCATION & EXPERIENCE
+          </h2>
         </div>
 
-        {details.map((item) => {
+        {details.map((item, id) => {
           return (
-            <div className="md:grid grid-cols-2 mb-3">
+            <div className="md:grid grid-cols-2 mb-3" key={id}>
               <p className="text-desc">{item.date}</p>
               <div>
                 <p className="text-desc font-bold">
