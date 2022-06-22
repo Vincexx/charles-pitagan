@@ -15,14 +15,14 @@ const Projects = () => {
         }}
         className="bg-card shadow-md"
       >
-        <div className="flex items-center justify-center mb-6 pt-6 px-10">
+        <div className="flex items-center mb-6 pt-6 px-10">
           <FontAwesomeIcon
             icon={faProjectDiagram}
             className="text-primary mr-2"
           />
           <h2 className="text-primary font-extrabold">PROJECTS</h2>
         </div>
-        <div className="grid md:grid-cols-2 gap-2 justify-items-center">
+        <div className="grid md:grid-cols-2 gap-2 justify-center">
           <a href="https://vincexx.github.io/React-Movie-App/" target="__blank">
             <img
               className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
