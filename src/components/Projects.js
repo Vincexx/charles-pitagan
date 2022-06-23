@@ -22,7 +22,7 @@ const Projects = () => {
           />
           <h2 className="text-primary font-extrabold">PROJECTS</h2>
         </div>
-        <div className="grid md:grid-cols-2 gap-2 justify-items-center">
+        <div className="grid md:grid-cols-2 gap-2 justify-center">
           <a href="https://vincexx.github.io/React-Movie-App/" target="__blank">
             <img
               className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"

@@ -3,7 +3,7 @@ import Content from "./components/Content";
 import Showcase from "./components/Showcase";
 import HashLoader from "react-spinners/HashLoader";
 import { useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 
 function App() {
   const [loading, setloading] = useState(false);
