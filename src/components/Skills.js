@@ -48,7 +48,7 @@ const Skills = () => {
               <p className="text-title font-bold">{item.title}</p>
               <div className="flex md:flex-col">
                 {item.skills.split(",").map((skill, id) => (
-                  <p key={id} className="text-title mr-2">
+                  <p key={id} className="text-desc mr-2">
                     {skill}
                   </p>
                 ))}
