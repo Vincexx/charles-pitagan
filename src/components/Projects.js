@@ -40,7 +40,7 @@ const Projects = () => {
           <a href="https://vincexx.github.io/growthUpsExam/" target="__blank">
             <img
               className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
-              src={process.env.PUBLIC_URL + "/img/projects/growthUps.PNG"}
+              src={process.env.PUBLIC_URL + "/img/projects/growthups.PNG"}
               alt="movie"
             ></img>
           </a>
