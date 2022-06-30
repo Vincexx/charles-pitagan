@@ -5,6 +5,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faMobileAndroid } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 import About from "./About";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Showcase = () => {
   return (
@@ -48,23 +50,39 @@ const Showcase = () => {
               </p>
             </div>
             <div className="grid grid-cols-1 justify-items-center">
-              <img src="img/profile.png" alt="profile"></img>
+              <img
+                src={process.env.PUBLIC_URL + "/img/profile.png"}
+                alt="profile"
+              ></img>
             </div>
 
-            <div className="md:mt-3 mt-12 px-4 pb-4">
-              <div className="flex items-center mb-1">
-                <FontAwesomeIcon
-                  icon={faEnvelope}
-                  className="mr-2 text-primary"
-                />
-                <p className="text-desc text-sm">cvpitagan@gmail.com</p>
+            <div className="flex justify-between md:mt-3 mt-12 px-4 pb-4 items-center">
+              <div className="">
+                <div className="flex items-center mb-1">
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    className="mr-2 text-primary"
+                  />
+                  <p className="text-desc text-sm">cvpitagan@gmail.com</p>
+                </div>
+                <div className="flex items-center">
+                  <FontAwesomeIcon
+                    icon={faMobileAndroid}
+                    className="mr-3 text-primary"
+                  />
+                  <p className="text-desc text-sm">(+63) 975-634-8605</p>
+                </div>
               </div>
-              <div className="flex items-center">
-                <FontAwesomeIcon
-                  icon={faMobileAndroid}
-                  className="mr-3 text-primary"
-                />
-                <p className="text-desc text-sm">(+63) 975-634-8605</p>
+              <div className="flex">
+                <a href="https://github.com/Vincexx" target="__blank">
+                  <FaGithub className="text-3xl mr-2 text-primary" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/charles-pitagan-28818a190/"
+                  target="__blank"
+                >
+                  <FaLinkedin className="text-3xl text-primary" />
+                </a>
               </div>
             </div>
           </motion.div>

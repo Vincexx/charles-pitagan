@@ -26,28 +26,28 @@ const Projects = () => {
           <a href="https://vincexx.github.io/React-Movie-App/" target="__blank">
             <img
               className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
-              src="img/projects/movie.PNG"
+              src={process.env.PUBLIC_URL + "/img/projects/movie.PNG"}
               alt="movie"
             ></img>
           </a>
           <a href="https://vincexx.github.io/medtech/" target="__blank">
             <img
               className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
-              src="img/projects/medtech.PNG"
+              src={process.env.PUBLIC_URL + "/img/projects/medtech.PNG"}
               alt="movie"
             ></img>
           </a>
           <a href="https://vincexx.github.io/growthUpsExam/" target="__blank">
             <img
               className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
-              src="img/projects/growthups.PNG"
+              src={process.env.PUBLIC_URL + "/img/projects/growthUps.PNG"}
               alt="movie"
             ></img>
           </a>
           <a href="https://vincexx.github.io/cafenr/" target="__blank">
             <img
               className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
-              src="img/projects/cafenr.png"
+              src={process.env.PUBLIC_URL + "/img/projects/cafenr.png"}
               alt="movie"
             ></img>
           </a>
