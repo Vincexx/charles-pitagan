@@ -15,7 +15,7 @@ const Skills = () => {
     },
     {
       title: "Database",
-      skills: "MySQL",
+      skills: "MySQL,PostgreSQL",
     },
     {
       title: "Environment",
