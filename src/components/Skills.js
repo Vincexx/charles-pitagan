@@ -11,7 +11,7 @@ const Skills = () => {
     },
     {
       title: "Backend",
-      skills: "PHP,Laravel,Adonis",
+      skills: "PHP,Laravel,Adonis,Java",
     },
     {
       title: "Database",

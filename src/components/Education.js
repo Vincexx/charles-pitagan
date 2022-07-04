@@ -6,7 +6,12 @@ import { motion } from "framer-motion";
 const Education = () => {
   const details = [
     {
-      date: "Nov 2021 - Present",
+      date: "May 2022 - Present",
+      position: "Java Developer",
+      company: "Norima Consulting Inc.",
+    },
+    {
+      date: "Nov 2021 - May 2022",
       position: "Backend Software Engineer",
       company: "Multisys Technologies Corporation",
     },
