@@ -30,6 +30,13 @@ const Projects = () => {
               alt="movie"
             ></img>
           </a>
+          <a href="https://www.youtube.com/watch?v=jrIDlcemUso" target="__blank">
+            <img
+              className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
+              src={process.env.PUBLIC_URL + "/img/projects/blog.png"}
+              alt="movie"
+            ></img>
+          </a>
           <a href="https://vincexx.github.io/medtech/" target="__blank">
             <img
               className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
@@ -41,13 +48,6 @@ const Projects = () => {
             <img
               className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
               src={process.env.PUBLIC_URL + "/img/projects/growthups.PNG"}
-              alt="movie"
-            ></img>
-          </a>
-          <a href="https://vincexx.github.io/cafenr/" target="__blank">
-            <img
-              className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
-              src={process.env.PUBLIC_URL + "/img/projects/cafenr.png"}
               alt="movie"
             ></img>
           </a>
