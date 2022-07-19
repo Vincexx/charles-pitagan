@@ -27,7 +27,7 @@ const Showcase = () => {
               y: { type: "tween", stiffness: 100 },
               default: { duration: 1 },
             }}
-            className="bg-card mx-2 md:px-3 md:pt-8 pt-6 mb-6"
+            className="bg-card mx-2 md:px-3 md:pt-8 pt-6 mb-6 shadow-lg"
           >
             <div className="text-center">
               <span>

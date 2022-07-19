@@ -5,8 +5,8 @@ module.exports = {
     extend: {
       colors: {
         primary: "#62F7D6",
-        bg: "#0A192F",
-        card: "#172A46",
+        bg: "#1b1f24",
+        card: "#24292f",
         title: "#B0BBDB",
         desc: "#99A4C3",
         sub: "#4C5A76",
