@@ -4,6 +4,29 @@ import { faProjectDiagram } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 
 const Projects = () => {
+  const data = [
+    {
+      link: "https://vincexx.github.io/React-Movie-App/",
+      img: "/img/projects/movie.PNG",
+      github: "",
+    },
+    {
+      link: "https://www.youtube.com/watch?v=jrIDlcemUso",
+      img: "/img/projects/blog.png",
+      github: "",
+    },
+    {
+      link: "https://vincexx.github.io/medtech/",
+      img: "/img/projects/medtech.PNG",
+      github: "",
+    },
+    {
+      link: "https://vincexx.github.io/growthUpsExam/",
+      img: "/img/projects/growthups.PNG",
+      github: "",
+    },
+  ];
+
   return (
     <div className="mx-2 mb-6">
       <motion.div
@@ -23,34 +46,15 @@ const Projects = () => {
           <h2 className="text-primary font-extrabold">PROJECTS</h2>
         </div>
         <div className="grid md:grid-cols-2 gap-2 justify-center">
-          <a href="https://vincexx.github.io/React-Movie-App/" target="__blank">
-            <img
-              className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
-              src={process.env.PUBLIC_URL + "/img/projects/movie.PNG"}
-              alt="movie"
-            ></img>
-          </a>
-          <a href="https://www.youtube.com/watch?v=jrIDlcemUso" target="__blank">
-            <img
-              className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
-              src={process.env.PUBLIC_URL + "/img/projects/blog.png"}
-              alt="movie"
-            ></img>
-          </a>
-          <a href="https://vincexx.github.io/medtech/" target="__blank">
-            <img
-              className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
-              src={process.env.PUBLIC_URL + "/img/projects/medtech.PNG"}
-              alt="movie"
-            ></img>
-          </a>
-          <a href="https://vincexx.github.io/growthUpsExam/" target="__blank">
-            <img
-              className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
-              src={process.env.PUBLIC_URL + "/img/projects/growthups.PNG"}
-              alt="movie"
-            ></img>
-          </a>
+          {data.map((item) => (
+            <a href={item.link} target="__blank">
+              <img
+                className="transform transition duration-500 hover:scale-110 grayscale hover:grayscale-0 w-full"
+                src={process.env.PUBLIC_URL + item.img}
+                alt="movie"
+              ></img>
+            </a>
+          ))}
         </div>
 
         <p className="text-sub text-xs mt-4 text-right py-3 mr-10">
