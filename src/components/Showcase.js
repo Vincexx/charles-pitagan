@@ -75,13 +75,13 @@ const Showcase = () => {
               </div>
               <div className="flex">
                 <a href="https://github.com/Vincexx" target="__blank">
-                  <FaGithub className="text-3xl mr-2 text-primary" />
+                  <FaGithub className="text-3xl mr-2 text-primary  hover:scale-110" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/charles-pitagan-28818a190/"
                   target="__blank"
                 >
-                  <FaLinkedin className="text-3xl text-primary" />
+                  <FaLinkedin className="text-3xl text-primary hover:scale-110" />
                 </a>
               </div>
             </div>
