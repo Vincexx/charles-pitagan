@@ -7,6 +7,11 @@ import { FaGithub, FaLink } from "react-icons/fa";
 const Projects = () => {
   const data = [
     {
+      link: "https://vincexx.github.io/insurance-pas/",
+      img: "/img/projects/insurance.PNG",
+      github: "https://github.com/Vincexx/insurance-pas",
+    },
+    {
       link: "https://vincexx.github.io/React-Movie-App/",
       img: "/img/projects/movie.PNG",
       github: "https://github.com/Vincexx/React-Movie-App",
@@ -20,11 +25,6 @@ const Projects = () => {
       link: "https://vincexx.github.io/medtech/",
       img: "/img/projects/medtech.PNG",
       github: "https://github.com/Vincexx/medtech",
-    },
-    {
-      link: "https://vincexx.github.io/growthUpsExam/",
-      img: "/img/projects/growthups.PNG",
-      github: "https://github.com/Vincexx/growthUpsExam",
     },
   ];
 
