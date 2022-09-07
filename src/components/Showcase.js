@@ -22,9 +22,9 @@ const Showcase = () => {
               y: { type: "tween", stiffness: 100 },
               default: { duration: 1 },
             }}
-            className="bg-card md:px-3 md:pt-8 pt-6 shadow-lg md:h-screen flex flex-col justify-between"
+            className="bg-card md:px-3 md:pr-4 md:pl-8 pt-6 shadow-lg md:h-screen flex flex-col justify-between"
           >
-            <div className="mx-2">
+            <div className="mx-4">
               <p className={`font-extrabold text-sm text-primary`}>
                 FUTURESRDEV
               </p>
