@@ -29,7 +29,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="mx-2 mb-6">
+    <div className="mb-6">
       <motion.div
         initial={{ x: -300, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}

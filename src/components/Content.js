@@ -9,7 +9,7 @@ const Content = () => {
     <div className="flex-1 flex overflow-hidden bg-bg">
       <div className="flex-1 md:overflow-y-scroll">
         <div className="container md:px-8 mx-auto">
-          <div className="text-title text-sm py-4 mx-2">
+          <div className="text-title text-sm py-4">
             <p className="h-2.5 w-12 bg-primary"></p>
             <p className="h-2 w-8 bg-title"></p>
           </div>
