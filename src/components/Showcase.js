@@ -14,7 +14,7 @@ const Showcase = () => {
         className="bg-bg md:w-1/2 text-white 
     "
       >
-        <div className="container mx-auto md:px-8 relative">
+        <div className="container mx-auto relative">
           <motion.div
             initial={{ x: -300, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
@@ -22,9 +22,9 @@ const Showcase = () => {
               y: { type: "tween", stiffness: 100 },
               default: { duration: 1 },
             }}
-            className="bg-card md:px-3 md:pr-4 md:pl-8 pt-6 shadow-lg md:h-screen flex flex-col justify-between"
+            className="bg-card pt-6 shadow-lg md:h-screen flex flex-col justify-between px-3"
           >
-            <div className="mx-4">
+            <div className="">
               <p className={`font-extrabold text-sm text-primary`}>
                 FUTURESRDEV
               </p>
@@ -59,7 +59,7 @@ const Showcase = () => {
               </div>
             </div>
 
-            <div className="flex justify-between md:mt-3 mt-12 px-4 pb-4 items-center">
+            <div className="flex justify-between md:mt-3 mt-12 pb-4 items-center">
               <div className="">
                 <div className="flex items-center mb-1">
                   <FontAwesomeIcon
