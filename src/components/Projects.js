@@ -61,7 +61,11 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <img src={process.env.PUBLIC_URL + item.img} alt="movie"></img>
+              <img
+                src={process.env.PUBLIC_URL + item.img}
+                alt="movie"
+                className="w-full"
+              ></img>
             </div>
           ))}
         </div>
