@@ -7,7 +7,7 @@ const Education = () => {
   const details = [
     {
       date: "May 2022 - Present",
-      position: "Java Developer",
+      position: "Software Engineer",
       company: "Norima Consulting Inc.",
     },
     {
