@@ -81,7 +81,7 @@ const Showcase = () => {
                   <FaGithub className="text-3xl mr-2 text-primary  hover:scale-110" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/charles-pitagan-28818a190/"
+                  href="https://www.linkedin.com/in/charles-vincent-pitagan-28818a190/"
                   target="__blank"
                 >
                   <FaLinkedin className="text-3xl text-primary hover:scale-110" />
