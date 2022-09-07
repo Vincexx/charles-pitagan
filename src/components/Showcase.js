@@ -42,7 +42,7 @@ const Showcase = () => {
                   />
                 </span>
                 <h1 className={`font-bold md:text-5xl text-2xl text-primary`}>
-                  Charles Pitagan{" "}
+                  Charles Vincent Pitagan{" "}
                 </h1>
                 <p className="my-1 text-md text-title font-bold">
                   Software Engineer
