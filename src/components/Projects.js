@@ -47,8 +47,8 @@ const Projects = () => {
           <h2 className="text-primary font-extrabold">PROJECTS</h2>
         </div>
         <div className="grid md:grid-cols-2 gap-2 justify-center">
-          {data.map((item) => (
-            <div className="relative">
+          {data.map((item, id) => (
+            <div key={id} className="relative">
               <div className="group absolute w-full h-full flex items-center justify-center hover:bg-primary transition-all duration-500">
                 <div className="hidden group-hover:block">
                   <div className="flex">
