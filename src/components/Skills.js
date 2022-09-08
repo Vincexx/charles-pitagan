@@ -42,7 +42,7 @@ const Skills = () => {
           <FontAwesomeIcon icon={faCogs} className="text-primary mr-2" />
           <h2 className="text-primary font-extrabold">SKILLS</h2>
         </div>
-        <div className="md:flex md:justify-between gap-2">
+        <div className="md:flex md:justify-between gap-2 flex-wrap">
           {details.map((item, id) => (
             <div className="mb-3" key={id}>
               <p className="text-title font-bold">{item.title}</p>
