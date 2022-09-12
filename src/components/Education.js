@@ -17,7 +17,7 @@ const Education = () => {
     },
     {
       date: "June 2021 - Nov 2021",
-      position: "Frontend Software Engineer",
+      position: "Full-stack Developer",
       company: "Iservice Technology",
     },
     {
