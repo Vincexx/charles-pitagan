@@ -36,7 +36,7 @@ function App() {
         pageId="100105645559377"
         language="en_US"
         themeColor={"#3b5998"}
-        bottomSpacing={20}
+        bottomSpacing={10}
         loggedInGreeting="Hi, thank you for reaching out. How can I help you?"
         loggedOutGreeting="Thank you so much!"
         greetingDialogDisplay={"show"}
