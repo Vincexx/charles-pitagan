@@ -4,6 +4,7 @@ import Showcase from "./components/Showcase";
 import HashLoader from "react-spinners/HashLoader";
 import { useEffect, useState } from "react";
 import { AnimatePresence } from "framer-motion";
+import { MessengerChat } from "react-messenger-chat-plugin";
 
 function App() {
   const [loading, setloading] = useState(false);
@@ -31,6 +32,35 @@ function App() {
           )}
         </div>
       </AnimatePresence>
+      <MessengerChat
+        pageId="100105645559377"
+        language="en_US"
+        themeColor={"#3b5998"}
+        bottomSpacing={20}
+        loggedInGreeting="Hi, thank you for reaching out. How can I help you?"
+        loggedOutGreeting="Thank you so much!"
+        greetingDialogDisplay={"show"}
+        debugMode={true}
+        onMessengerShow={() => {
+          console.log("onMessengerShow");
+        }}
+        onMessengerHide={() => {
+          console.log("onMessengerHide");
+        }}
+        onMessengerDialogShow={() => {
+          console.log("onMessengerDialogShow");
+        }}
+        onMessengerDialogHide={() => {
+          console.log("onMessengerDialogHide");
+        }}
+        onMessengerMounted={() => {
+          console.log("onMessengerMounted");
+        }}
+        onMessengerLoad={() => {
+          console.log("onMessengerLoad");
+        }}
+      />
+      
     </>
   );
 }
