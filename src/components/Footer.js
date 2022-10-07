@@ -1,10 +1,13 @@
 import React from "react";
 
 const Footer = () => {
+  const d = new Date();
+  const currentYear = d.getFullYear();
+
   return (
     <div className="bg-card text-center py-6">
-      <p className="text-sub text-sm uppercase">
-        Copyright 2020 &copy; Charles Pitagan
+      <p className="text-sub text-sm">
+        Copyright {currentYear} &copy; Charles Pitagan
       </p>
     </div>
   );
