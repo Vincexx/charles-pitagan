@@ -17,6 +17,11 @@ const Projects = () => {
       github: "https://github.com/Vincexx/React-Movie-App",
     },
     {
+      link: "https://vincexx.github.io/charles-pitagan/",
+      img: "/img/projects/charles-pitagan.PNG",
+      github: "https://github.com/Vincexx/charles-pitagan",
+    },
+    {
       link: "https://www.youtube.com/watch?v=jrIDlcemUso",
       img: "/img/projects/blog.png",
       github: "https://github.com/Vincexx/VnxeBlog",
@@ -25,6 +30,21 @@ const Projects = () => {
       link: "https://vincexx.github.io/medtech/",
       img: "/img/projects/medtech.PNG",
       github: "https://github.com/Vincexx/medtech",
+    },
+    {
+      link: "https://vincexx.github.io/portfolio/",
+      img: "/img/projects/medtech.PNG",
+      github: "https://github.com/Vincexx/portfolio",
+    },
+    {
+      link: "https://vincexx.github.io/pitagan/",
+      img: "/img/projects/medtech.PNG",
+      github: "https://github.com/Vincexx/pitagan",
+    },
+    {
+      link: "https://vincexx.github.io/charles_pitagan/",
+      img: "/img/projects/medtech.PNG",
+      github: "https://github.com/Vincexx/charles_pitagan",
     },
   ];
 
