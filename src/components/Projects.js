@@ -33,17 +33,17 @@ const Projects = () => {
     },
     {
       link: "https://vincexx.github.io/portfolio/",
-      img: "/img/projects/medtech.PNG",
+      img: "/img/projects/portfolio.PNG",
       github: "https://github.com/Vincexx/portfolio",
     },
     {
       link: "https://vincexx.github.io/pitagan/",
-      img: "/img/projects/medtech.PNG",
+      img: "/img/projects/pitagan.PNG",
       github: "https://github.com/Vincexx/pitagan",
     },
     {
       link: "https://vincexx.github.io/charles_pitagan/",
-      img: "/img/projects/medtech.PNG",
+      img: "/img/projects/charles_pitagan.PNG",
       github: "https://github.com/Vincexx/charles_pitagan",
     },
   ];
