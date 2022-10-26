@@ -21,7 +21,7 @@ const About = () => {
         </div>
         <p className="text-desc">
           A <span className="font-bold">software engineer</span> with hands-on
-          experience in full stack development using Laravel, Vue, Adonis and React.
+          experience in full stack development using Laravel, Vue, Adonis, React and SpringBoot.
         </p>
 
         <p className="text-sub text-xs mt-4 text-right">SOFTWARE ENGINEER</p>
