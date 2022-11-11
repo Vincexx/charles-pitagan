@@ -12,7 +12,7 @@ const About = () => {
         transition={{
           y: { type: "tween", stiffness: 100 },
           default: { duration: 1 },
-        }}
+        }} 
         className="bg-card pt-8 pb-2 px-10 shadow-lg"
       >
         <div className="flex items-center mb-3">

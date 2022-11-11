@@ -16,12 +16,7 @@ const Education = () => {
       company: "Multisys Technologies Corporation",
     },
     {
-      date: "June 2021 - Nov 2021",
-      position: "Full-stack Developer",
-      company: "Iservice Technology",
-    },
-    {
-      date: "Aug 2019 - June 2021",
+      date: "Aug 2019 - Jan 2022",
       position: "IT Instructor",
       company: "CvSU Tanza",
     },
