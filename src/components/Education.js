@@ -16,16 +16,6 @@ const Education = () => {
       company: "Multisys Technologies Corporation",
     },
     {
-      date: "Aug 2019 - Jan 2022",
-      position: "IT Instructor",
-      company: "CvSU Tanza",
-    },
-    {
-      date: "Dec 2020 - Jan 2021",
-      position: "Freelance Web Developer",
-      company: "CvSU Main",
-    },
-    {
       date: "June 2015 - June 2019",
       position: "Graduated of BS in Computer Science",
       company: "CvSU CCAT",
