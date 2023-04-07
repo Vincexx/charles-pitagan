@@ -6,14 +6,19 @@ import { motion } from "framer-motion";
 const Education = () => {
   const details = [
     {
-      date: "May 2022 - Present",
+      date: "Jan 2023 - Present",
+      position: "Backend Software Engineer",
+      company: "Manulife Philippines",
+    },
+    {
+      date: "May 2022 - Dec 2022",
       position: "Software Engineer",
       company: "Norima Consulting Inc.",
     },
     {
-      date: "Nov 2021 - May 2022",
-      position: "Backend Software Engineer",
-      company: "Multisys Technologies Corporation",
+      date: "Aug 2019 - May 2022",
+      position: "Full Stack Engineer",
+      company: "Cavite State University",
     },
     {
       date: "June 2015 - June 2019",
