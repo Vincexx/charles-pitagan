@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/charles-pitagan/static/css/main.45bdbabb.css",
-    "main.js": "/charles-pitagan/static/js/main.55f1e0b0.js",
+    "main.js": "/charles-pitagan/static/js/main.be4d79c9.js",
     "static/js/787.128fc6e9.chunk.js": "/charles-pitagan/static/js/787.128fc6e9.chunk.js",
     "index.html": "/charles-pitagan/index.html",
     "main.45bdbabb.css.map": "/charles-pitagan/static/css/main.45bdbabb.css.map",
-    "main.55f1e0b0.js.map": "/charles-pitagan/static/js/main.55f1e0b0.js.map",
+    "main.be4d79c9.js.map": "/charles-pitagan/static/js/main.be4d79c9.js.map",
     "787.128fc6e9.chunk.js.map": "/charles-pitagan/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45bdbabb.css",
-    "static/js/main.55f1e0b0.js"
+    "static/js/main.be4d79c9.js"
   ]
 }
