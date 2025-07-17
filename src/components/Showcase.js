@@ -26,7 +26,7 @@ const Showcase = () => {
           >
             <div className="">
               <p className={`font-extrabold text-sm text-primary`}>
-                FUTURESRDEV
+                VINCEDEV
               </p>
             </div>
 
@@ -73,7 +73,7 @@ const Showcase = () => {
                     icon={faMobileAndroid}
                     className="mr-3 text-primary"
                   />
-                  <p className="text-desc text-sm">(+63) 975-634-8605</p>
+                  <p className="text-desc text-sm">(+63) 976-265-3524</p>
                 </div>
               </div>
               <div className="flex">

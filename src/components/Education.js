@@ -7,6 +7,16 @@ const Education = () => {
   const details = [
     {
       date: "Jan 2023 - Present",
+      position: "Fullstack Engineer | Wordpress Developer",
+      company: "Freelancing",
+    },
+    {
+      date: "Nov 2024 - Present",
+      position: "Java Engineer",
+      company: "Security Bank Corporation",
+    },
+    {
+      date: "Jan 2023 - Nov 2024",
       position: "Backend Software Engineer",
       company: "Manulife Philippines",
     },
@@ -19,12 +29,7 @@ const Education = () => {
       date: "Aug 2019 - May 2022",
       position: "Full Stack Engineer",
       company: "Cavite State University",
-    },
-    {
-      date: "June 2015 - June 2019",
-      position: "Graduated of BS in Computer Science",
-      company: "CvSU CCAT",
-    },
+    }
   ];
 
   return (

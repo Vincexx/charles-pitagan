@@ -7,9 +7,17 @@ import { FaGithub, FaLink } from "react-icons/fa";
 const Projects = () => {
   const data = [
     {
-      link: "https://vincexx.github.io/insurance-pas/",
-      img: "/img/projects/insurance.PNG",
-      github: "https://github.com/Vincexx/insurance-pas",
+      link: "https://vincexx.github.io/vince-claud-wedding-invitation/",
+      img: "/img/projects/rsvp.PNG",
+    },
+    {
+      link: "https://www.650homes.com.ph/",
+      img: "/img/projects/650homes.PNG",
+    },
+    {
+      link: "https://wellingtonresidences.duravillerealty.com/",
+      img: "/img/projects/wellington.PNG",
+      github: "https://github.com/Vincexx/React-Movie-App",
     },
     {
       link: "https://vincexx.github.io/React-Movie-App/",
@@ -17,34 +25,14 @@ const Projects = () => {
       github: "https://github.com/Vincexx/React-Movie-App",
     },
     {
-      link: "https://vincexx.github.io/charles-pitagan/",
-      img: "/img/projects/charles-pitagan.PNG",
-      github: "https://github.com/Vincexx/charles-pitagan",
-    },
-    {
-      link: "https://www.youtube.com/watch?v=jrIDlcemUso",
-      img: "/img/projects/blog.png",
-      github: "https://github.com/Vincexx/VnxeBlog",
-    },
-    {
       link: "https://vincexx.github.io/medtech/",
       img: "/img/projects/medtech.PNG",
       github: "https://github.com/Vincexx/medtech",
     },
     {
-      link: "https://vincexx.github.io/portfolio/",
-      img: "/img/projects/portfolio.PNG",
-      github: "https://github.com/Vincexx/portfolio",
-    },
-    {
-      link: "https://vincexx.github.io/pitagan/",
-      img: "/img/projects/pitagan.PNG",
-      github: "https://github.com/Vincexx/pitagan",
-    },
-    {
-      link: "https://vincexx.github.io/charles_pitagan/",
-      img: "/img/projects/charles_pitagan.PNG",
-      github: "https://github.com/Vincexx/charles_pitagan",
+      link: "https://www.youtube.com/watch?v=jrIDlcemUso",
+      img: "/img/projects/blog.png",
+      github: "https://github.com/Vincexx/VnxeBlog",
     },
   ];
 
@@ -74,9 +62,6 @@ const Projects = () => {
                   <div className="flex">
                     <a href={item.link} target="__blank">
                       <FaLink className="text-xl hover:scale-110" />
-                    </a>
-                    <a href={item.github} target="__blank">
-                      <FaGithub className="text-xl ml-1 hover:scale-110" />
                     </a>
                   </div>
                 </div>
